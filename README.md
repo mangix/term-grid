@@ -48,12 +48,15 @@ set width for column , `left` `right`,`center`  and `left` by default.
 draw grid to the terminal
 
 
-### output grid to file
+## output grid to file
 Default output stream is `process.stdout`. You can set 'grid.stream' to other  [Stream](http://nodejs.org/api/stream.html#stream_class_stream_writable);
 ```js
 grid.stream = require("fs").createWriteStream("grid.txt");
 grid.draw();
 ```
+
+## license
+MIT
 
   
 
