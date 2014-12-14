@@ -5,7 +5,9 @@ term-grid create grid in the terminal, you can config color,width,align for each
 
 
 ## Install
+  ```
   $ npm install term-grid
+  ```
 
 ## Usage
 ```js
