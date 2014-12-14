@@ -1,0 +1,23 @@
+{
+  "name": "term-grid",
+  "version": "0.1.0",
+  "description": "term grid ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mangix/term-grid.git"
+  },
+  "keywords": [
+    "terminal",
+    "grid"
+  ],
+  "author": "mangix",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mangix/term-grid/issues"
+  },
+  "homepage": "https://github.com/mangix/term-grid"
+}
