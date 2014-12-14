@@ -17,6 +17,7 @@ term-grid create grid in the terminal, you can config color,width,align for each
   grid.draw();
   
 ```
+![rect](https://raw.githubusercontent.com/mangix/term-grid/master/grid.png)
 
 ## API
 ### - setWidth(column,width)
