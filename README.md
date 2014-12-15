@@ -27,11 +27,18 @@ set width for column .  width 0(and is default) means auto
 ```
 
 ### - setColor(column,color)
-set color for column
+set color for column.
 colors support : `black` `red` `green` `yellow` `blue` `magenta` `cyan` `white`
 ```js
   grid.setColor(0,10); //set the first column red
-  grid.setWidth(["red","yellow","green"]); //set each column
+  grid.setColor(["red","yellow","green"]); //set each column
+  //param `color` could be a function . Code below set the second column data `red` when it's greater than 10
+  grid.setColor(1,function(content,row,column){
+    if(content > 10){
+        return "red";
+    }
+  });
+
 ```
 
 ### - setAlign(column,width)
