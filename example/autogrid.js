@@ -44,4 +44,5 @@ var grid = new Grid([
 ]);
 grid.draw();
 
+console.log(grid.getColumns());
 
