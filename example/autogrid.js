@@ -42,12 +42,5 @@ var grid = new Grid([
     ["统计", "", "", "44-89", "8-22", "18-23", "11", "29", "40", "22", "19", "6", "6", "6", "114", ""],
     ["命中率", "", "", "49.4%", "36.4%", "78.3%", "", "", "", "", "", "", "", "", "", ""]
 ]);
-grid.setColor(function(){
-    return "red";
-});
-grid.setColor("green");
 
 grid.draw();
-
-//console.log(grid.getColumnCount());
-

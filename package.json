@@ -1,6 +1,6 @@
 {
   "name": "term-grid",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Create grid in the terminal, config color,width,align for each column",
   "main": "index.js",
   "scripts": {
