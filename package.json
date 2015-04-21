@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/mangix/term-grid/issues"
   },
-  "homepage": "https://github.com/mangix/term-grid"
+  "homepage": "https://github.com/mangix/term-grid",
+  "dependencies": {
+    "strip-ansi": "^2.0.1"
+  }
 }
