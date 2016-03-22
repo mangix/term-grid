@@ -40,7 +40,7 @@ colors string support : `black` `red` `green` `yellow` `blue` `magenta` `cyan` `
 ```js
   grid.setColor(0,"red"); //set the first column red
   grid.setColor(["red","yellow","green"]); //set each column
-  set the second column data `red` when it's greater than 10
+  //set the second column data `red` when it's greater than 10
   grid.setColor(1,function(content,row,column){
     if(content > 10){
         return "red";
